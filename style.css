@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  width: 450px;
+  margin: 2rem auto;
+  background-color: black;
+  color: white;
+}
+
+.screen {
+  text-align: right;
+  font-family: "Courier New", Courier, Monospace;
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.calc-btn-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
+.calc-btn {
+  background-color: #d8d9db;
+  clolr: black;
+  border: none;
+  font-size: 2.3rem;
+  height: 100px;
+  flex-basis: 24.5%;
+}
+
+.calc-btn:last-child {
+  background-color: #df974c;
+  color: white;
+}
+
+.calc-btn:last-child:hover {
+  background-color: #dfb07e;
+  color: white;
+}
+
+.calc-btn:hover {
+  background-color: #ebebeb;
+}
+
+.calc-btn:active {
+  background-color: #bbbcbe;
+}
+
+.span-2 {
+  flex-basis: 49.7%;
+}
+
+.span-3 {
+  flex-basis: 74.8%;
+}
+
+
+
+
+
+
+
+
+
+
+/* End of stylesheet */
